@@ -1,6 +1,5 @@
 # Samsung Knox / Cloud / Retail / MDM Blocking List for DNS66
 # Updated: 2025-06-16
-
 0.0.0.0 asset.samsungvisioncloud.com
 0.0.0.0 asset-cdn.samsungvisioncloud.com
 0.0.0.0 capi.samsungcloud.com
@@ -35,14 +34,12 @@
 0.0.0.0 cdm.samsung.com
 0.0.0.0 demo.samsung.com
 0.0.0.0 provisioning.samsung.com
-
 # Samsung Retail & Demo mode
 0.0.0.0 retailmode.samsung.com
 0.0.0.0 retail.samsung.com
 0.0.0.0 retailagent.samsung.com
 0.0.0.0 retaildemo.samsung.com
 0.0.0.0 retailapi.samsung.com
-
 # Additional Samsung MDM / Knox services
 0.0.0.0 mdm.samsungmobile.com
 0.0.0.0 emm.samsungosp.com
@@ -62,7 +59,6 @@
 0.0.0.0 lcprd1.samsungcloudsolution.net.cdn.cloudflare.net
 0.0.0.0 att-dmss-01.ospserver.net
 0.0.0.0 fota.sec.samsung.com
-
 # Optional - Google FRP & connectivity check (only block during setup/reset)
 # 0.0.0.0 android.clients.google.com
 # 0.0.0.0 connectivitycheck.gstatic.com
