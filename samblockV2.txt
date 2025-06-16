@@ -1,41 +1,70 @@
-127.0.0.1 asset.samsungvisioncloud.com
-127.0.0.1 asset-cdn.samsungvisioncloud.com
-127.0.0.1 capi.samsungcloud.com
-127.0.0.1 hub-odc.samsungapps.com
-127.0.0.1 dc.dqa.samsung.com
-127.0.0.1 ddf.di.atlas.samsung.com
-127.0.0.1 dc.di.atlas.samsung.com
-127.0.0.1 diagmon-serviceapi.samsungdm.com
-127.0.0.1 dir-apis.samsungdm.com
-127.0.0.1 vas.samsungapps.com
-127.0.0.1 api.account.samsung.com
-127.0.0.1 play.samsungcloud.com
-127.0.0.1 euprod-knoxpp.samsungknox.com
-127.0.0.1 aka-dn.gw.samsungapps.com
-127.0.0.1 api.gras.samsungdm.com
-127.0.0.1 gos-api.gos-gsp.io
-127.0.0.1 retailmode.samsung.com
-127.0.0.1 retail.samsung.com
-127.0.0.1 retailagent.samsung.com
-127.0.0.1 retaildemo.samsung.com
-127.0.0.1 retailapi.samsung.com
-127.0.0.1 demo.samsung.com
-127.0.0.1 provisioning.samsung.com
-127.0.0.1 cdm.samsung.com
-127.0.0.1 samsungdm.com
-127.0.0.1 bixbyllm.com
-127.0.0.1 es11.samsung-sm-ds.com
-127.0.0.1 es11.samsung-sm-ds.com.lan
-127.0.0.1 gsl.samsunggsl.com
-127.0.0.1 regi.di.atlas.samsung.com
-127.0.0.1 sdk.pushmessage.samsung.com
-127.0.0.1 sdk.pushmessage.samsung.com.lan
-127.0.0.1 www.samsung.com
-127.0.0.1 opcode
-127.0.0.1 x1.c.lencr.org
-127.0.0.1 www.tizen.org
-127.0.0.1 www.goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
-127.0.0.1 api.rustdesk.io
-127.0.0.1 pinning-02.secb2b.com
-127.0.0.1 roughtime.int08h.com
-127.0.0.1 api.individual.githubcopilot.com
+# Samsung Knox / Cloud / Retail / MDM Blocking List for DNS66
+# Updated: 2025-06-16
+
+0.0.0.0 asset.samsungvisioncloud.com
+0.0.0.0 asset-cdn.samsungvisioncloud.com
+0.0.0.0 capi.samsungcloud.com
+0.0.0.0 play.samsungcloud.com
+0.0.0.0 samsungcloud.com
+0.0.0.0 dc.dqa.samsung.com
+0.0.0.0 ddf.di.atlas.samsung.com
+0.0.0.0 dc.di.atlas.samsung.com
+0.0.0.0 diagmon-serviceapi.samsungdm.com
+0.0.0.0 dir-apis.samsungdm.com
+0.0.0.0 samsungdm.com
+0.0.0.0 api.gras.samsungdm.com
+0.0.0.0 api.account.samsung.com
+0.0.0.0 hub-odc.samsungapps.com
+0.0.0.0 vas.samsungapps.com
+0.0.0.0 aka-dn.gw.samsungapps.com
+0.0.0.0 euprod-knoxpp.samsungknox.com
+0.0.0.0 gsl.samsunggsl.com
+0.0.0.0 regi.di.atlas.samsung.com
+0.0.0.0 sdk.pushmessage.samsung.com
+0.0.0.0 sdk.pushmessage.samsung.com.lan
+0.0.0.0 www.samsung.com
+0.0.0.0 www.tizen.org
+0.0.0.0 www.goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com
+0.0.0.0 api.rustdesk.io
+0.0.0.0 pinning-02.secb2b.com
+0.0.0.0 roughtime.int08h.com
+0.0.0.0 api.individual.githubcopilot.com
+0.0.0.0 gos-api.gos-gsp.io
+0.0.0.0 opcode
+0.0.0.0 bixbyllm.com
+0.0.0.0 cdm.samsung.com
+0.0.0.0 demo.samsung.com
+0.0.0.0 provisioning.samsung.com
+
+# Samsung Retail & Demo mode
+0.0.0.0 retailmode.samsung.com
+0.0.0.0 retail.samsung.com
+0.0.0.0 retailagent.samsung.com
+0.0.0.0 retaildemo.samsung.com
+0.0.0.0 retailapi.samsung.com
+
+# Additional Samsung MDM / Knox services
+0.0.0.0 mdm.samsungmobile.com
+0.0.0.0 emm.samsungosp.com
+0.0.0.0 emdm.samsungosp.com
+0.0.0.0 seap.samsung.com
+0.0.0.0 sems.samsung.com
+0.0.0.0 lcs-svc.samsung.com
+0.0.0.0 knox.samsungenterprise.com
+0.0.0.0 knoxappupdate.samsung.com
+0.0.0.0 skms-dp.samsung.com
+0.0.0.0 kg.apac.sec.samsung.com
+0.0.0.0 kg.cn.sec.samsung.com
+0.0.0.0 kg.us.sec.samsung.com
+0.0.0.0 kg.intl.sec.samsung.com
+0.0.0.0 log-config.samsungacr.com
+0.0.0.0 lcprd1.samsungcloudsolution.net
+0.0.0.0 lcprd1.samsungcloudsolution.net.cdn.cloudflare.net
+0.0.0.0 att-dmss-01.ospserver.net
+0.0.0.0 fota.sec.samsung.com
+
+# Optional - Google FRP & connectivity check (only block during setup/reset)
+# 0.0.0.0 android.clients.google.com
+# 0.0.0.0 connectivitycheck.gstatic.com
+# 0.0.0.0 www.googleapis.com
+# 0.0.0.0 accounts.google.com
