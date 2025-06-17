@@ -1,1 +1,36 @@
-
+# Block MDM, Knox, and KG-related domains
+0.0.0.0 mdm.samsungmobile.com
+0.0.0.0 samsungdm.com
+0.0.0.0 emm.samsungosp.com
+0.0.0.0 emdm.samsungosp.com
+0.0.0.0 kg.apac.sec.samsung.com
+0.0.0.0 kg.cn.sec.samsung.com
+0.0.0.0 kg.us.sec.samsung.com
+0.0.0.0 kg.intl.sec.samsung.com
+0.0.0.0 knox.samsungenterprise.com
+0.0.0.0 knoxappupdate.samsung.com
+0.0.0.0 euprod-knoxpp.samsungknox.com
+0.0.0.0 sems.samsung.com
+0.0.0.0 cdm.samsung.com
+0.0.0.0 seap.samsung.com
+0.0.0.0 att-dmss-01.ospserver.net
+0.0.0.0 retailmode.samsung.com
+0.0.0.0 retail.samsung.com
+0.0.0.0 retailagent.samsung.com
+0.0.0.0 retaildemo.samsung.com
+0.0.0.0 retailapi.samsung.com
+0.0.0.0 provisioning.samsung.com
+0.0.0.0 log-config.samsungacr.com
+0.0.0.0 skms-dp.samsung.com
+0.0.0.0 api.gras.samsungdm.com
+0.0.0.0 diagmon-serviceapi.samsungdm.com
+0.0.0.0 dir-apis.samsungdm.com
+0.0.0.0 fota.sec.samsung.com
+# Optional but recommended to block:
+0.0.0.0 api.rustdesk.io
+0.0.0.0 pinning-02.secb2b.com
+0.0.0.0 roughtime.int08h.com
+0.0.0.0 opcode
+0.0.0.0 bixbyllm.com
+0.0.0.0 api.individual.githubcopilot.com
+0.0.0.0 gos-api.gos-gsp.io
