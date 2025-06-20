@@ -1,5 +1,6 @@
 # Samsung Knox / Cloud / Retail / MDM Blocking List for DNS66
-# Updated: 2025-06-16
+# Updated: 2025-06-20
+0.0.0.0 vas.samsungapps.com
 0.0.0.0 asset.samsungvisioncloud.com
 0.0.0.0 asset-cdn.samsungvisioncloud.com
 0.0.0.0 capi.samsungcloud.com
